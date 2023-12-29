@@ -1,0 +1,239 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+}
+.main{
+    font-size: 17px;
+    
+}
+.uppername{
+    color:rgb(123, 86, 160);
+    position: absolute;
+    left: 5vh;
+    top: 3vh;
+}
+.Home{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    left: 95vh;
+    top: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Projects{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    left: 115vh;
+    top: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    position: absolute;
+    left: 135vh;
+    top: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    left: 155vh;
+    top: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: #16253b;
+    color: #fff;
+    height: 15vh;
+    width: 220.9vh;
+    position: absolute;
+    top: -2vh;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+:root {
+    --bg1: #d6d6d6;
+    --bg2: #16253b;
+    --orange: #ffbd07;
+    --dark-purple: rgb(182, 182, 182);
+    --darkOne: #f3f3f3;
+    --darktwo: #312f3a;
+  }
+  
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bg1);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    z-index: -1;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    top: 5.5vh;
+    left: 200vh;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    background-color: var(--dark-purple);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  
+  .slider::before {
+    position: absolute;
+    content: "";
+    background-color: var(--orange);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 5px;
+    bottom: 5px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .slider::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-color: var(--dark-purple);
+    border-radius: 50%;
+    left: -26px;
+    bottom: 4px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider::before {
+    -webkit-transform: translateX(40px);
+            transform: translateX(40px);
+  }
+  
+  input:checked + .slider::after {
+    -webkit-transform: translateX(60px);
+            transform: translateX(60px);
+  }
+  
+  input:checked ~ .bg {
+    background-color: var(--bg2);
+  }
+
+
+.whatsapp{
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  left: 25vh;
+  top: 16vh;
+  color: blue;
+}
+.whats{
+    color: blue;
+    font-size: 5vh;
+    position: absolute;
+    top: 22vh;
+    left: 50vh;
+}
+a:link{
+    text-decoration: none;
+    font-family: cursive;
+}
+.phone{
+    height: 15vh;
+    width: 27vh;
+    position: absolute;
+    left: 22vh;
+    top: 68vh;
+  }
+  .phone1{
+    color: blue;
+    font-size: 5vh;
+    position: absolute;
+    top: 72vh;
+    left: 50vh;
+  }
+  .instagram{
+    height: 20vh;
+    width: 15.5vh;
+    position: absolute;
+    left: 27vh;
+    top: 42vh;
+   
+  }
+  .insta{
+    color: blue;
+    font-size: 5vh;
+    position: absolute;
+    top: 47vh;
+    left: 50vh;
+  }
+
+/* .call{
+  
+    position: absolute;
+    width: 25vh;
+    left: 1.5vh;
+ 
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.call12{
+ 
+    height: 7vh;
+    width: 24vh;
+    position: absolute;
+    top: 80vh;
+  
+    left: 170vh;
+
+} */
